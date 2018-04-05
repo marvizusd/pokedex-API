@@ -10,6 +10,10 @@ app.use(morgan('dev'))
 app.use(bodyParser.json())
 app.use(cors())
 
+app.use(express.static('build'));
+
+app.get('/', (req,res) => res.render('index'))
+
 app.get('/allpokemon', (req,res)=>{
     axios.get('https://pokeapi.co/api/v2/pokemon/')
     .then((response)=>{
