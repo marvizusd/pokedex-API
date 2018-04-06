@@ -1,3 +1,5 @@
+Review Commits to view code completed in the 1 hour time frame
+
 ```
 git clone https://github.com/marvizusd/pokedex-API.git
 ```
