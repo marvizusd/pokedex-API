@@ -1,1 +1,0 @@
-run 'yarn install && yarn start' in terminal
